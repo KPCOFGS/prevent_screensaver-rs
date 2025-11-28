@@ -21,18 +21,26 @@ sudo pacman -S libx11 libxtst pkg-config
 
 ## How to Use
 
-1. **Build the program:**
+1. **Clone the repository**
+   ```bash
+   https://github.com/KPCOFGS/prevent_screensaver-rs.git
+   ```
+2. **Navigate to the folder**
+   ```bash
+   cd prevent_screensaver-rs
+   ```
+3. **Build the program:**
    ```bash
    cargo build --release
    ```
 
-2. **Run it:**
+4. **Run it:**
    ```bash
    ./target/release/prevent_screensaver 30.0
    ```
    (Replace `30.0` with how many seconds between mouse movements)
 
-3. **To stop:** Press `Ctrl+C`
+5. **To stop:** Press `Ctrl+C`
 
 The mouse will move slightly every 30 seconds (or whatever interval you choose) to prevent your screensaver from starting.
 
