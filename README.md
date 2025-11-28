@@ -44,3 +44,5 @@ The mouse will move slightly every 30 seconds (or whatever interval you choose) 
 # Move every 2 minutes  
 ./target/release/prevent_screensaver 120.0
 ```
+## License
+This script is provided under the Unlicense. See the [LICENSE](LICENSE) file for details.
