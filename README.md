@@ -23,7 +23,7 @@ sudo pacman -S libx11 libxtst pkg-config
 
 1. **Clone the repository**
    ```bash
-   https://github.com/KPCOFGS/prevent_screensaver-rs.git
+   git clone https://github.com/KPCOFGS/prevent_screensaver-rs.git
    ```
 2. **Navigate to the folder**
    ```bash
